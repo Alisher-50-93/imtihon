@@ -85,7 +85,6 @@ header{
 .hdr-img{
     display: flex;
     position: relative;
-    padding: 0px 29px;
 }
 
 .img{
@@ -93,20 +92,20 @@ header{
 }
 
 .img-1{
-    margin-left: 180px;
+    margin-left: 200px;
     top: 0;
-    margin-top: 90px;
+    margin-top: 110px;
 }
 
 .img-2{
-    margin-right: 240px;
+    margin-left: 20px;
     top: 0;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 .img-3{
-    margin-left: 110px;
+    margin-left: 130px;
     top: 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -123,6 +122,24 @@ header{
     justify-content: center;
     gap: 63px;
     /* display: block; */
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dumaloq{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #78C23E;
+    margin-right: 20px;
+}
+
+.paragraf{
+    display: flex;
 }
 
 
@@ -219,12 +236,12 @@ header{
 }
 
 .img-6{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 60px;
 }
 
 .img-7{
-    margin-left: 40px;
+    /* margin-left: 10px; */
     margin-top: 580px;
 }
 
@@ -340,6 +357,40 @@ th {
 
 }
 
+.dale-img{
+    display: flex;
+    gap: 10px;
+}
+
+.dl-img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl-img:hover{
+     border: 1px solid #96317D;
+}
+
+.dl-mg{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #96317D;
+}
+
+.dale-text{
+    display: flex;
+    gap: 40px;
+}
+
+.b{
+    font-size: 40px;
+     margin-left: 450px;
+}
 .axis{
     display: flex;
     padding-left: 130px;
@@ -427,6 +478,7 @@ th {
     width: 1440px;
     height: 381px;
     background-image: url(img/fon.png);
+    background-size: cover;
     margin-top: 90px;
     display: flex;
     align-items: center;
@@ -441,6 +493,15 @@ th {
     justify-content: space-between;
     align-items: center;
     padding: 0px 90px;
+    gap: 20px;
+}
+
+.zakaz button{
+    width: 390px;
+    height: 61px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
 }
 
 .karta{
@@ -451,6 +512,16 @@ th {
     display: flex;
 }
 
+.b-b{
+    display: block;
+    color: #fff;
+}
+
+
+.b_b{
+    font-size: 25px;
+
+}
 .karta-text{
     margin-top: 100px;
     margin-left: 100px;
@@ -458,34 +529,53 @@ th {
     flex-direction: column;
     gap: 20px;
 }
+.karta-text  button{
+ width: 162px;
+ height: 40px;
+ border-radius: 5px;
+ border: 1px solid #96317D;
+ color: #96317D;
+ background-color: #fff;   
+}
 
 
 
 
 @media(max-width:780px){
     .header{
-        width: 780px;
+    width: 780px;
     height: 1118px;
     background-color: #A95094;
     border: 1px solid;
 }
 
 header{
+    width: 780px;
     flex-direction: row-reverse;
+    padding: 29px 30px;
+    padding: auto;
 }
 
     .header-img{
+        position: absolute;
         top: 0;
-        margin-top: 140px;
+        margin-top: 110px;
+        margin-right: 590px;
 
     }
     .header-button button{
+        position: absolute;
         top: 0;
-        margin-top: 240px;
+        margin-top: 100px;
+        margin-left: 560px;
     }
 
     .header hr{
     display:  block;
+}
+
+.hdr{
+    width: 780px;
 }
 
 .hdr-text{
@@ -495,8 +585,8 @@ header{
     flex-direction: column;
     gap: 35px;
     text-align: center;
-    margin-left: 400px;
-    margin-top: 150px;
+    margin-left: 50px;  
+    padding-top: 70px;
     font-family: sans-serif;
     color: #fff;
 }
@@ -505,40 +595,63 @@ header{
     width: 664px;
     height: 265px;
     gap: 25px;
-    font-size: 60px;
+    font-size: 67px;
 }
 
 .hdr-text button{
-    width: 222px;
-    height: 55px;
+    width: 237px;
+    height: 70px;
     border-radius: 15px;
     background-color: #000;
+    font-size: 20px;
     color: #fff;
     border: none;
-    margin-top: 450px;
-    margin-left: 230px;
+    margin-top: 460px;
+    margin-left: 220px;
 }
 .img-1{
-    width: 574px;
-    height: 547px;
-    margin-left: 760px;
+    width: 385px;
+    height: 580px;
+    margin-left: 360px;
     top: 0;
-    margin-top: 257px;
+    margin-top: 463px;
 }
 
 .img-2{
-    width: 344px;
-    height: 456px;
-    margin-left: 240px;
+    width: 324px;
+    height: 450px;
+    margin-left: 20px;
     top: 0;
-    margin-top: 407px;
+    margin-top: 577px;
 }
 .img-3{
-    width: 574px;
-    height: 547px;
-    margin-left: 410px;
+    width: 594px;
+    height: 567px;
+    margin-left: 150px;
     top: 0;
-    margin-top: 287px;
+    margin-top: 477px;
+}
+
+.img-5{
+    width: 273.00003051757835px;
+    height: 546.0000000000005px;
+    margin-left: 236px;
+    margin-top: 133px;
+    transform: rotate(90deg);
+}
+
+.img-6{
+    width: 399px;
+    height: 541px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.img-7{
+    width: 64px;
+    height: 64px;
+    margin-top: 430px;
+    margin-left: 20px;
 }
 
 .header-text ul{
@@ -555,15 +668,24 @@ header{
 
 .img-11{
     width: 780px;
-    height: 112px   ;
-    
+    height: 112px;
+    margin-left: auto;
+    margin-right: 11px;
     margin-top: 1045px;
-    text-align: center;   
+    text-align: center; 
+    gap: 0px; 
+    flex-direction: column;
     /* display: none; */
 }
+
+.paragraf{
+    display: block;
+}
+
 .hdr-text{
     margin-top: 70px;
 }
+
 
 .soatlar{
     margin-top: 200px;
@@ -579,7 +701,7 @@ header{
 .cards{
    width: 780px;
     height: 897px;
-    /* padding-left: 199px; */
+    padding-left: 135px;
     display: flex; 
     flex-direction: column;
 }
@@ -608,5 +730,160 @@ header{
     height: 1049px;
 
 }
+
+.robot{
+    width: 720px;
+    height: 583.3685913085938px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+.card-text-text{
+    position: absolute;
+    margin-top: 650px
+}
+
+.dale{
+    margin: 0px 20px;
+}
+
+.odam{
+    width: 780px;
+    height: 849px;
+}
+
+.odamm-div{
+    margin-left: 5px;
+}
+
+.odam-dm{
+    display: none;
+    
+}
+
+.AXIS{
+    width: 720px;
+    height: 505px;
+    margin-top: 100px;
+}
+
+.AXIS .b{
+    font-size: 40px;
+   margin-left: 130px; 
+}
+
+.axs-1{
+    display: none;
+}
+
+.google{
+    width: 780px;
+    height: 307px;
+    display: flex;
+    gap: 65px;
+    padding-left: 10px;
+    margin-top: 130px;
+}
+.gogle{
+    width: 370px;
+    height: 135px;
+    flex-direction: column;
+    gap: 57px;
+
+}
+
+.pachti{
+    width: 722px;
+    flex-direction: column;
+}
+
+.pachti-qw{
+  text-align: center;  
+}
+.pachti-text-b{
+    width: 629px;
+    height: 20px;
+    font-size: 40px;
+    margin-left: 70px;
+}
+.pachti-text-p{
+    width: 501px;
+    height: 81px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.pachti-img{
+    margin-left: 30px;
+}
+
+.zakazativiy{
+    width: 780px;
+    height: 508px;
+    padding: 60px 0px;
+}
+.zakaz{
+    width: 721px;
+    height: 408px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.karta{
+    width: 780px;
+    height: 633px;
+    margin-top: 50px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.karta-text{
+    margin-top: 100px;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.iava{
+    position: absolute;
+    margin-left: 450px;
+}
+
+.karta-text button{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+
+.b-b{
+    font-size: 40px;
+    margin-top: 90px;
+    margin-left: 120px;
+    color: #000;
+}
+
+.b_b{
+ display: none;
+}
+
+.karta-text-img b{
+    font-size: 17px;
+}
+
+.karta img{
+    width: 720px;
+    height: 372px;
+
+}
+
 
 }
