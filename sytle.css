@@ -538,7 +538,40 @@ th {
  background-color: #fff;   
 }
 
+.fixper-img{
+    display: flex;
+    gap: 8.5px;
+    color: #000;
+    margin-left: 600px;
+    margin-top: 50px;
+}
 
+.fixper ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 270px;
+    font-size: 20px;
+}
+
+.viza{
+    width:  1338px;
+    height: 80px;
+    background-color:#fafafa;
+    margin-left: 60px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.text{
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
 
 
 @media(max-width:780px){
@@ -885,5 +918,30 @@ header{
 
 }
 
+.fixper-img{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.fixper ul{
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.viza{
+    width:  640px;
+    height: 50px;
+    background-color:#fafafa;
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.b-viza{
+    display: none;
+}
 
 }
